@@ -1,7 +1,23 @@
 p {
     font-family: 'Times New Roman';
+    color: #000000;
+    font-size: 25px;
 }
 body {
-    background-image: url(nedladdning.png);
+    
     text-align: center;
+}
+h1{
+    font-size: 75px;
+    color: #000000;
+}
+a {
+    text-decoration: none;
+    font-size: 25px;
+}
+div{
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    
 }
