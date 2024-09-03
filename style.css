@@ -1,28 +1,30 @@
 p {
     font-family: 'Times New Roman';
-    color: #000000;
     font-size: 25px;
 }
 body {
-    
+    padding: 25px;
+    background-color: white;
+    color: black;
+    font-size: 25px;
     text-align: center;
-}
+  }
+  
+  .dark-mode {
+    background-color: black;
+    color: white;
+  }
 h1{
     font-size: 75px;
-    color: #000000;
 }
 a {
     text-decoration: none;
     font-size: 25px;
 }
-div.mycontainer {
-  width:100%;
-  overflow:auto;
-}
-div.mycontainer div {
-  width:33%;  
-  float:left;
+div{
+    width: 300px;
+    margin: auto;
 }
 img{
-    size: 125px;
+    width: 125px;
 }
