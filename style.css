@@ -15,9 +15,14 @@ a {
     text-decoration: none;
     font-size: 25px;
 }
-div{
-    width: 250px;
-    margin-left: auto;
-    margin-right: auto;
-    
+div.mycontainer {
+  width:100%;
+  overflow:auto;
+}
+div.mycontainer div {
+  width:33%;  
+  float:left;
+}
+img{
+    size: 125px;
 }
